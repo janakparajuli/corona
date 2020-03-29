@@ -33,7 +33,7 @@ fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/worldstat.php", {
         console.log(err);
     });
 
-//Fetching The Case by Country Data
+//Fetching The Case by Country Data 
 fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php", {
         "method": "GET",
         "headers": {
