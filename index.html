@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <title>COVID-19 TRACKER</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="statistic">
+            <div class="title">
+                <h1>COVID-19 STATUS</h1>
+            </div>
+
+            <div class="total_case_box">
+                <h2>Worldwide Total Cases</h2>
+                <p id="total_cases"></p>
+            </div>
+            <div class="box_wrapper">
+                <div class="box">
+                    <h2>Death</h2>
+                    <p id="total_death"> </p>
+                </div>
+
+                <div class="box">
+                    <h2>Recovery</h2>
+                    <p id="total_recovered"> </p>
+                </div>
+
+                <div class="box">
+                    <h2>New case</h2>
+                    <p id="new_case"> </p>
+                </div>
+
+                <div class="box">
+                    <h2>New Death</h2>
+                    <p id="new_death"> </p>
+                </div>
+            </div>
+            <div class="nep_total_case_box">
+                <h2>Nepal Total Cases</h2>
+                <p id="nep_total_cases"></p>
+            </div>
+            <div class="nep_box_wrapper">
+                <div class="box">
+                    <h2>Death</h2>
+                    <p id="nep_total_death"> </p>
+                </div>
+
+                <div class="box">
+                    <h2>Recovery</h2>
+                    <p id="nep_total_recovered"> </p>
+                </div>
+
+                <div class="box">
+                    <h2>New case</h2>
+                    <p id="nep_new_case"> </p>
+                </div>
+
+                <div class="box">
+                    <h2>New Death</h2>
+                    <p id="nep_new_death"> </p>
+                </div>
+            </div>
+            <table id="countries_stat">
+                <tr>
+                    <th>Country</th>
+                    <th>Cases</th>
+                    <th>Deaths</th>
+                    <th>Active</th>
+                    <th>critical</th>
+                    <th>recovered</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src='scripts/main.js'></script>
+</body>
+
+</html>
