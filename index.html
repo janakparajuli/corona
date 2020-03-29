@@ -9,6 +9,9 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
 </head>
 
 <body>
@@ -44,7 +47,11 @@
                 </div>
             </div>
             <div class="nep_total_case_box">
-                <h2>Nepal Total Cases</h2>
+                <h2>
+                    <!-- <script>
+                        debugger;
+                    </script>  -->
+                    Nepal Total Cases</h2>
                 <p id="nep_total_cases"></p>
             </div>
             <div class="nep_box_wrapper">
@@ -68,6 +75,9 @@
                     <p id="nep_new_death"> </p>
                 </div>
             </div>
+            <a id="refresh" href="#" data-icon="recycle" class="ui-btn-right">Refresh</a>
+            <!-- /button name, icon and location definition -->
+
             <table id="countries_stat">
                 <tr>
                     <th>Country</th>
