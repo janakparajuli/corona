@@ -7,9 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
     <title>COVID-19 TRACKER</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
 
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
 
 
 </head>
@@ -75,8 +79,11 @@
                     <p id="nep_new_death"> </p>
                 </div>
             </div>
-            <a id="refresh" href="#" data-icon="recycle" class="ui-btn-right">Refresh</a>
-            <!-- /button name, icon and location definition -->
+
+            <div class="button">
+                <a id="refresh" href="#" data-icon="recycle" class="ui-btn">Click for Detailed List</a>
+                <!-- /button name, icon and location definition -->
+            </div>
 
             <table id="countries_stat">
                 <tr>
@@ -86,6 +93,8 @@
                     <th>Active</th>
                     <th>critical</th>
                     <th>recovered</th>
+                    <th> <a id="map" href="map.html" data-icon="recycle" class="ui-btn">View in Map</a>
+                    </th>
                 </tr>
             </table>
         </div>
